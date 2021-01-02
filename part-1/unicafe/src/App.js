@@ -64,8 +64,8 @@ const App = (props) => {
       <br />
 
       <Title title="Statistics" />
-      {/* Conditional Rendering using conditional operator */}
-      {/* {
+      {/* Conditional Rendering using conditional operator
+      {
       feedBack.isFeedback
       ? <Statistics data={feedBack} />
       : "No feedback given"
@@ -81,5 +81,3 @@ const App = (props) => {
 }
 
 export default App;
-
-
