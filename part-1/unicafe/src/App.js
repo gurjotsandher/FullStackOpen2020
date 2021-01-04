@@ -52,7 +52,6 @@ const App = (props) => {
     }
   }
 
-
   return (
     <div style={{paddingLeft: "40%", paddingTop: '10%'}}>
       <Title title="Give Feedback" />
