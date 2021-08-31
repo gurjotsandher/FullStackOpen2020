@@ -1,12 +1,40 @@
-import React from 'react';
+// import React from 'react';
+
+// const Part = (props) => {
+//     return (
+//         <div>
+//             <p>{props.name}</p>
+//         </div>
+        
+//     )
+// }
+
+// export default Part;
+
+
+import React from 'react'
 
 const Part = (props) => {
-    return (
+    const parts = props.parts
+    console.log(parts)
+
+    return(
         <div>
-            <p>{props.name}</p>
+            {props.name}
+            <br />
+            <br />
         </div>
-        
     )
 }
 
-export default Part;
+export default Part
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,146 @@
-export const Header = ({ course }) => {
+// export const Header = ({ course }) => {
 
-  return (
-    <h2>{course.name}</h2>
-  )
-  }
+//   return (
+//     <h2>{course.name}</h2>
+//   )
+//   }
+
+
+
+import React from 'react'
+
+export const Header = (props) => {
+    return (
+        <div>
+            <h1 key={props.listId}>{props.headerTitle}</h1>
+        </div>
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
